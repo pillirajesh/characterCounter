@@ -1,0 +1,133 @@
+.app-container {
+  background-color: #ffffff;
+  height: 100vh;
+  background-size: cover;
+  padding: 30px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100vw;
+}
+
+.left-container {
+  background-color: #ffc533;
+  width: 40vw;
+  height: 80vh;
+  border-top-left-radius: 20px;
+  border-bottom-left-radius: 20px;
+}
+
+.right-container {
+  background-color: #0f172a;
+  width: 40vw;
+  height: 80vh;
+  border-top-right-radius: 20px;
+  border-bottom-right-radius: 20px;
+}
+
+.left-heading {
+  font-size: 35px;
+  font-family: 'roboto';
+  color: #0f172a;
+  font-weight: bold;
+  margin-left: 30px;
+}
+
+.heading-container {
+  background-color: #ffbf1f;
+  height: 200px;
+  padding: 40px;
+  margin: 20px;
+}
+
+.image {
+  width: 40vw;
+  height: 40vh;
+}
+
+.right-heading {
+  font-size: 30px;
+  font-family: 'roboto';
+  color: #ffbf1f;
+  font-weight: bold;
+  margin-top: 40px;
+  text-align: center;
+}
+
+.input-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 80px;
+}
+
+.input {
+  background-color: #ffffff;
+  width: 350px;
+  height: 40px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+  font-size: 15px;
+  font-family: 'roboto';
+}
+
+.button {
+  background-color: #ffc533;
+  color: #ffffff;
+  font-family: 'roboto';
+  border: none;
+  border-radius: 10px;
+  width: 60px;
+  height: 40px;
+  margin-left: 30px;
+  outline: none;
+  cursor: pointer;
+}
+
+.unordered-list-container {
+  padding-left: 0px;
+  width: 40vw;
+}
+
+.list-items {
+  list-style-type: none;
+  margin-left: 30px;
+  font-family: 'roboto';
+  font-weight: bold;
+  color: #0f172a;
+  font-size: 20px;
+  margin-bottom: 10px;
+  width: 40vw;
+}
+
+@media screen and (max-width: 767px) {
+  .app-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+  }
+
+  .left-container {
+    width: 90vw;
+    height: 50vh;
+    border-radius: 0px;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+  }
+
+  .right-container {
+    width: 90vw;
+    height: 50vh;
+    border-radius: 0px;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+  }
+
+  .image {
+    width: 90vw;
+    height: 25vh;
+  }
+}
